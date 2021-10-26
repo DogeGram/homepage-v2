@@ -36,7 +36,7 @@ const Footer = () => (
               <h4 className={tw(`text-gray-900 text-base font-bold mb-1`)}>Resources</h4>
               <ul>
                 {resourceLinks.map((obj, index) => (
-                  <li className={tw(`text-gray-800 text-sm font-medium leading-6`)} key={index}>
+                  <li className={tw(`text-gray-800 text-sm font-medium leading-6`)} key={obj.text}>
                     <a href={obj.url}>{obj.text}</a>
                   </li>
                 ))}
