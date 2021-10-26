@@ -36,7 +36,7 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-          <script async src="https://scripts.simpleanalyticscdn.com/latest.js" />
+        <link rel="shortcut icon" href="https://assets.dogegram.xyz/favicon.ico" />
         </Head>
         <body>
           <Main />

@@ -1,6 +1,7 @@
 import { tw } from 'twind';
 import { useState } from 'react';
 import Button from '@/components/button';
+import LogoSVG from '@/components/logoSVG'
 
 interface IMenuButton {
   toggleMenu: React.MouseEventHandler<HTMLButtonElement>;
@@ -13,36 +14,33 @@ type Link = {
 };
 
 const links = [
+
   {
-    label: `Features`,
-    href: `/`,
-  },
-  {
-    label: `Testimonials`,
-    href: `/`,
-  },
-  {
-    label: `Pricing`,
-    href: `/`,
+    label: `Code`,
+    href: `https://dogeis.me/github`,
   },
   {
     label: `Blog`,
-    href: `/`,
+    href: `https://blog.dogegram.xyz`,
+  },
+  {
+    label: `Status Page`,
+    href: `https://status.dogegram.xyz`,
   },
 ];
 
 const secondaryLinks = [
   {
-    label: `Contact sales`,
-    href: `/`,
+    label: `Contact us`,
+    href: `mailto:hello@dogegram.xyz`,
   },
   {
     label: `Log in`,
-    href: `/`,
+    href: `https://app.dogegram.xyz`,
   },
   {
-    label: `Get Started`,
-    href: `/`,
+    label: `Sign up`,
+    href: `https://app.dogegram.xyz/signup`,
   },
 ];
 
@@ -120,7 +118,7 @@ const Navigation = () => {
         <div className={tw(`flex items-center justify-between h-24`)}>
           <div className={tw(`flex items-center`)}>
             <div className={tw(`flex-shrink-0`)}>
-              <img className={tw(`h-12 w-12`)} src="logo.svg" alt="logo" width={48} height={48} />
+            <LogoSVG className={tw(`h-12 w-12`)} width={48} height={48} />
             </div>
             <div className={tw(`hidden md:block`)}>
               <div className={tw(`ml-10 flex items-baseline space-x-4`)}>
@@ -138,9 +136,9 @@ const Navigation = () => {
           </div>
           <div className={tw(`hidden md:block`)}>
             <div className={tw(`ml-4 flex items-center md:ml-6`)}>
-              <Button modifier="border-0 mr-2">Contact sales</Button>
-              <Button modifier="border-0 mr-2">Log in</Button>
-              <Button primary>Get started</Button>
+              <Button modifier="border-0 mr-2" url={'mailto:hello@dogegram.xyz'}>Contact us</Button>
+              <Button modifier="border-0 mr-2" url={'https://app.dogegram.xyz'}>Log in</Button>
+              <Button primary url={'https://app.dogegram.xyz/signup'}>Sign Up</Button>
             </div>
           </div>
           <div className={tw(`-mr-2 flex md:hidden`)}>
