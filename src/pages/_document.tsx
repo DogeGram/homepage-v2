@@ -37,6 +37,17 @@ class MyDocument extends Document {
       <Html lang="en">
         <Head>
         <link rel="shortcut icon" href="https://assets.dogegram.xyz/favicon.ico" />
+        
+        <meta name="title" content="Dogegram"/>
+        <meta name="description" content="The new, sleek, and noice social media platform!"/>
+
+        <meta property="og:type" content="website"/>
+        <meta property="og:url" content="https://dogegram.xyz/"/>
+        <meta property="og:title" content="Dogegram"/>
+        <meta property="og:description" content="The new, sleek, and noice social media platform!"/>
+        <meta property="twitter:url" content="https://dogegram.xyz/"/>
+        <meta property="twitter:title" content="Dogegram"/>
+        <meta property="twitter:description" content="The new, sleek, and noice social media platform!"/>
         </Head>
         <body>
           <Main />
