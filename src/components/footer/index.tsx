@@ -9,7 +9,7 @@ const aboutLinks = [
 ];
 const resourceLinks = [
   {text:`Support`, url:`mailto:support@dogegram.xyz`},
-  {text:`Status`, url:`https://status.dogegram.xyz`},
+  {text:`Status page`, url:`https://status.dogegram.xyz`},
 ];
 
 const Footer = () => (
@@ -17,7 +17,7 @@ const Footer = () => (
     <div className={tw(`max-w-7xl mx-auto text-gray-400 px-8 lg:px-0 flex flex-wrap`)}>
       <div className={tw(`mb-14 flex items-center w-full`)}>
         <LogoSVG className={tw(`h-12 w-12 mr-4`)} width={48} height={48} />
-        <p className={tw(`text-4xl text-indigo-500 font-bold`)}>Dogegram, Made with ♥ from India</p>
+        <p className={tw(`text-4xl text-indigo-500 font-bold`)}>Dogegram, Made with ♥ in India</p>
       </div>
       <div className={tw(`w-full lg:w-1/2`)}>
         <ul className={tw(`text-lg font-light flex flex-wrap w-full`)}>
