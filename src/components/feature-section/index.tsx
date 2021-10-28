@@ -38,8 +38,8 @@ const FeatureSection = () => (
               <div className={tw(`ml-4 text-xl`)}>Unlimited Growth!</div>
             </div>
             <p className={tw(`leading-loose text-gray-500`)}>
-              We will automaticly chose verified/creator accounts to show in recommended users list, so your followerbase
-              increaes and everybody gets what they want, yay!
+              We will automaticly select accounts with verified or/and creator badges to show in recommended users' list, so your follower-base
+              increases and everybody gets what they want, yay! 
             </p>
           </div>
           <div className={tw(`w-full border-b md:w-1/2 lg:w-1/3 lg:border-r lg:border-b-0 p-8`)}>
