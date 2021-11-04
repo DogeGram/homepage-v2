@@ -21,7 +21,7 @@ const Header = () => (
           Introducing Dogegram!
       </p>
       <p className={tw(`mt-6 font-bold text-gray-500 text-center text-lg lg:text-xl`)}>
-          (Homosapiens Welcome too <Twemoji emoji='😅'/><Twemoji emoji='😂'/>)
+          (Homosapiens Welcome Too! <Twemoji emoji='😅'/> <Twemoji emoji='😂'/>)
       </p>
       </div>
       <div className={tw(`mt-10 flex justify-center items-center w-full mx-auto`)}>
