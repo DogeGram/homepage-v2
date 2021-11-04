@@ -1,6 +1,7 @@
 import { AppProps } from 'next/app';
 import '@/styles/global.css';
 import '@fontsource/inter';
+import '@/components/Twemoji/styles.css'
 
 import { setup } from 'twind';
 import twindConfig from '../twind.config';
