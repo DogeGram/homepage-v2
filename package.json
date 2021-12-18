@@ -1,8 +1,7 @@
 {
-  "name": "startd-theme",
-  "description": "A TypeScript/Next.js theme that includes everything you need to build amazing landing page!",
+  "name": "dogegram-homepage-v2",
+  "description": "A TypeScript/Next.js landing page!",
   "version": "1.0.0",
-  "private": true,
   "author": "Jaakko Kytölä <kytola.jaakko@gmail.com> (jaakkokytola.com)",
   "license": "MIT",
   "keywords": [
@@ -13,7 +12,7 @@
     "theme"
   ],
   "scripts": {
-    "dev": "next",
+    "dev": "next -p 4000",
     "build": "next build",
     "start": "next start",
     "type-check": "tsc",

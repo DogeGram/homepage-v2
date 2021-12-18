@@ -11,6 +11,11 @@ const resourceLinks = [
   {text:`Support`, url:`mailto:support@dogegram.xyz`},
   {text:`Status page`, url:`https://status.dogegram.xyz`},
 ];
+const legalLinks = [
+  {text:`Terms of Service`, url:`https://policies.dogegram.xyz/termsofservice`},
+  {text:`Privacy Policy`, url:`https://policies.dogegram.xyz/privacy`},
+  {text:`Community Guidelines`, url:`https://policies.dogegram.xyz/communityrules`},
+  ];
 
 const Footer = () => (
   <footer className={tw(`bg-white border-t border-gray-400 pt-14 pb-16`)}>
@@ -21,7 +26,7 @@ const Footer = () => (
       </div>
       <div className={tw(`w-full lg:w-1/2`)}>
         <ul className={tw(`text-lg font-light flex flex-wrap w-full`)}>
-          <li className={tw(`w-1/2 md:w-1/3 lg:w-1/3`)}>
+          <li className={tw(`w-1/2 md:w-1/4 lg:w-1/4`)}>
             <div>
               <h4 className={tw(`text-gray-900 text-base font-bold mb-1`)}>Product</h4>
               <ul>
@@ -31,7 +36,7 @@ const Footer = () => (
               </ul>
             </div>
           </li>
-          <li className={tw(`w-1/2 md:w-1/3 lg:w-1/3`)}>
+          <li className={tw(`w-1/2 md:w-1/4 lg:w-1/4`)}>
             <div>
               <h4 className={tw(`text-gray-900 text-base font-bold mb-1`)}>Resources</h4>
               <ul>
@@ -43,11 +48,23 @@ const Footer = () => (
               </ul>
             </div>
           </li>
-          <li className={tw(`w-1/2 md:w-1/3 lg:w-1/3`)}>
+          <li className={tw(`w-1/2 md:w-1/4 lg:w-1/4`)}>
             <div>
               <h4 className={tw(`text-gray-900 text-base font-bold mb-1`)}>About Us</h4>
               <ul>
                 {aboutLinks.map((obj, index) => (
+                  <li className={tw(`text-gray-800 text-sm font-medium leading-6`)} key={index}>
+                    <a href={obj.url}>{obj.text}</a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </li>
+          <li className={tw(`w-1/2 md:w-1/4 lg:w-1/4`)}>
+            <div>
+              <h4 className={tw(`text-gray-900 text-base font-bold mb-1`)}>Legal Stuff</h4>
+              <ul>
+                {legalLinks.map((obj, index) => (
                   <li className={tw(`text-gray-800 text-sm font-medium leading-6`)} key={index}>
                     <a href={obj.url}>{obj.text}</a>
                   </li>

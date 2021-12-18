@@ -8,7 +8,7 @@ const PricingTable = () => (
     <div className={tw(`relative max-w-7xl mx-auto mb-24`)}>
       <div className={tw(`overflow-hidden lg:max-w-none lg:flex`)}>
         <div className={tw(`py-8 px-6 md:px-0 lg:flex-shrink-1`)}>
-          <h2 className={tw(`text-4xl lg:text-7xl font-bold text-gray-800 mb-12`)}>Say Hello To Privacy!</h2>
+          <h2 className={tw(`text-4xl lg:text-7xl font-bold text-gray-800 mb-12`)}>And It's Free!</h2>
           <p className={tw(`mt-6 text-base leading-6 text-gray-500`)}>
             Get ready, and click the sign up button to go check out the social world of ours and have fun! 
             This is free too for you and everybody, yay!
