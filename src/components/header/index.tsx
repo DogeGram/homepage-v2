@@ -10,18 +10,15 @@ const headerStyle = css`
 const Header = () => (
   <header className={tw(headerStyle)}>
     <div className={tw(`max-w-4xl mx-auto py-16 px-14 sm:px-6 lg:px-8`)}>
-      <h1 className={tw(`font-sans font-bold text-4xl md:text-5xl lg:text-8xl text-center leading-snug text-gray-800`)}>
-        Say Hello To
-      <h1 className={tw(`font-sans font-bold text-transparent text-4xl md:text-5xl lg:text-8xl text-center lg:leading-tight bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 via-yellow-500 animate-gradient-x`)}>
-         Privacy!
-      </h1>
-      </h1>
+      <h2 className={tw(`font-sans font-bold text-4xl md:text-5xl lg:text-8xl text-center leading-snug text-gray-800`)}>
+        Get
+      <h2 className={tw(`font-sans font-bold text-transparent text-4xl md:text-5xl lg:text-8xl text-center lg:leading-tight bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 via-yellow-500 animate-gradient-x`)}>
+         Dogegram!
+      </h2>
+      </h2>
       <div className={tw(`max-w-xl mx-auto`)}>
       <p className={tw(`mt-10 font-bold text-gray-500 text-center text-xl lg:text-3xl`)}>
-          Introducing Dogegram!
-      </p>
-      <p className={tw(`mt-6 font-bold text-gray-500 text-center text-lg lg:text-xl`)}>
-          (Homosapiens Welcome Too! <Twemoji emoji='😅'/> <Twemoji emoji='😂'/>)
+         The privacy-friendly social media!
       </p>
       </div>
       <div className={tw(`mt-10 flex justify-center items-center w-full mx-auto`)}>

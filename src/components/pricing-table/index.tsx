@@ -11,7 +11,7 @@ const PricingTable = () => (
           <h2 className={tw(`text-4xl lg:text-7xl font-bold text-gray-800 mb-12`)}>And It's Free!</h2>
           <p className={tw(`mt-6 text-base leading-6 text-gray-500`)}>
             Get ready, and click the sign up button to go check out the social world of ours and have fun! 
-            This is free too for you and everybody, yay!
+            This is free too for you and everybody, yay! (Subscription plan Falcon, coming soon!)
           </p>
         </div>
         <div

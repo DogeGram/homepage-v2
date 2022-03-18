@@ -5,16 +5,15 @@ import LogoSVG from '@/components/logoSVG'
 const aboutLinks = [
 {text:`Twitter`, url:`https://twitter.com/DogegramHQ`},
 {text:`Github`, url:`https://github.com/dogegram`},
-{text:`Blog`, url:`https://blog.dogegram.xyz`},
 ];
 const resourceLinks = [
   {text:`Support`, url:`mailto:support@dogegram.xyz`},
   {text:`Status page`, url:`https://status.dogegram.xyz`},
 ];
 const legalLinks = [
-  {text:`Terms of Service`, url:`https://policies.dogegram.xyz/termsofservice`},
-  {text:`Privacy Policy`, url:`https://policies.dogegram.xyz/privacy`},
-  {text:`Community Guidelines`, url:`https://policies.dogegram.xyz/communityrules`},
+  {text:`Terms of Service`, url:`https://dogegram.notion.site/Terms-Of-Service-Dogegram-7edabbd77c9f41208a7cad37d44a590e`},
+  {text:`Privacy Policy`, url:`https://dogegram.notion.site/Privacy-Policy-Dogegram-98f53a13ec43439993ec0ea1d96de1f1`},
+  {text:`Community Guidelines`, url:`https://dogegram.notion.site/Dogegram-Community-Guidelines-7424324b1fc241e1a8e73e14369914e6`},
   ];
 
 const Footer = () => (

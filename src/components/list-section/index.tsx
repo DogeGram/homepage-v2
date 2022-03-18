@@ -4,7 +4,7 @@ import FeatureSvg from '@/constants/svg/features.svg';
 const listItems = [
   {
     title: `Made by a group of Teens!`,
-    description: `Its not Google or Facebook (why would they even think of this), we are a team of 13 year olds 
+    description: `Its not Google or Facebook (data hungry), we are a team of teen devs 
     making great stuff.`,
     iconjsx: <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -21,7 +21,7 @@ const listItems = [
   {
     title: `Secure`,
     description: `We have made sure your data stays safe and secure, and we collect minimal data so even if the
-    worst come to happen, which has a very low chance, you would leak no more than your birthday and email.`,
+    worst come to happen, which has a very low chance, you would leak no more than your birthday and email. The database cannot be accessed from outside our network.`,
     iconjsx: <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
   </svg>

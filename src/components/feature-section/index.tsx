@@ -25,11 +25,11 @@ const FeatureSection = () => (
           <div className={tw(`w-full border-b md:w-1/2 lg:w-1/3 lg:border-r p-8`)}>
             <div className={tw(`flex items-center mb-6`)}>
               <Check width={20} height={20} fill="currentColor" className={tw(`h-6 w-6 text-indigo-500`)} />
-              <div className={tw(`ml-4 text-xl`)}>Creators Program</div>
+              <div className={tw(`ml-4 text-xl`)}>Payments</div>
             </div>
             <p className={tw(`leading-loose text-gray-500 `)}>
-              Get paid when someone joins dogegram and follows you the first and then you get 2% of ad 
-              reveneue from the follower, for 12 months. Exclusive for creators above 100k subs. (Soon 😉)
+               Make it easy for people to support you as you share! With Dogegram Payments, with the lowest fees ever. Just 90 paise
+               for transactions under ₹80 and 2% above that (excluding stripe fees)
             </p>
           </div>
           <div className={tw(`w-full border-b md:w-1/2 md:border-r lg:w-1/3 lg:border-r-0 p-8`)}>
@@ -38,8 +38,8 @@ const FeatureSection = () => (
               <div className={tw(`ml-4 text-xl`)}>Unlimited Growth!</div>
             </div>
             <p className={tw(`leading-loose text-gray-500`)}>
-              We will automaticly select accounts with verified or/and creator badges to show in recommended users' list, so your follower-base
-              increases and everybody gets what they want, yay! 
+              We will automaticly select accounts with verified or/and creator badges to show in recommended users' list, 
+              so your follower-base increases and everybody gets what they want, yay! 
             </p>
           </div>
           <div className={tw(`w-full border-b md:w-1/2 lg:w-1/3 lg:border-r lg:border-b-0 p-8`)}>
@@ -48,7 +48,7 @@ const FeatureSection = () => (
               <div className={tw(`ml-4 text-xl`)}>Creator's Badge!</div>
             </div>
             <p className={tw(`leading-loose text-gray-500`)}>
-              Creators with more than just 100 subs (ya only 100 subs required) get a special badge linking to
+              Creators with more than just 100 followers (ya only 100 subs required) get a special badge linking to
               their youtube channel page!
             </p>
           </div>
@@ -65,11 +65,11 @@ const FeatureSection = () => (
           <div className={tw(`w-full md:w-1/2 lg:w-1/3 p-8`)}>
             <div className={tw(`flex items-center mb-6`)}>
               <Check width={20} height={20} fill="currentColor" className={tw(`h-6 w-6 text-indigo-500`)} />
-              <div className={tw(`ml-4 text-xl`)}>Integrations</div>
+              <div className={tw(`ml-4 text-xl`)}>Privacy</div>
             </div>
             <p className={tw(`leading-loose text-gray-500`)}>
-              Developers welcome! We are working on a public api, we would soon launch it, it would enable you 
-              to publish posts programically!
+              We you don't track you as you go around the web browsing things nor do we even if you are on our 
+              platfrom. (partly because bigdata is big xD)
             </p>
           </div>
         </div>
