@@ -11,14 +11,14 @@ const Header = () => (
   <header className={tw(headerStyle)}>
     <div className={tw(`max-w-4xl mx-auto py-16 px-14 sm:px-6 lg:px-8`)}>
       <h2 className={tw(`font-sans font-bold text-4xl md:text-5xl lg:text-8xl text-center leading-snug text-gray-800`)}>
-        Get
+        The user-funded social media
       <h2 className={tw(`font-sans font-bold text-transparent text-4xl md:text-5xl lg:text-8xl text-center lg:leading-tight bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 via-yellow-500 animate-gradient-x`)}>
          Dogegram!
       </h2>
       </h2>
       <div className={tw(`max-w-xl mx-auto`)}>
       <p className={tw(`mt-10 font-bold text-gray-500 text-center text-xl lg:text-3xl`)}>
-         The privacy-friendly social media!
+         
       </p>
       </div>
       <div className={tw(`mt-10 flex justify-center items-center w-full mx-auto`)}>

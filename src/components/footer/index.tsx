@@ -5,6 +5,7 @@ import LogoSVG from '@/components/logoSVG'
 const aboutLinks = [
 {text:`Twitter`, url:`https://twitter.com/DogegramHQ`},
 {text:`Github`, url:`https://github.com/dogegram`},
+{text:`Blog`, url:`https://blog.dogegram.xyz`}
 ];
 const resourceLinks = [
   {text:`Support`, url:`mailto:support@dogegram.xyz`},
