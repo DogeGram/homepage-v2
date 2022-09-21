@@ -5,11 +5,12 @@ import LogoSVG from '@/components/logoSVG'
 const aboutLinks = [
 {text:`Twitter`, url:`https://twitter.com/DogegramHQ`},
 {text:`Github`, url:`https://github.com/dogegram`},
+{text:`Dogegram`, url:`https://app.dogegram.xyz/dogegram`},
 {text:`Blog`, url:`https://blog.dogegram.xyz`}
 ];
 const resourceLinks = [
   {text:`Support`, url:`mailto:support@dogegram.xyz`},
-  {text:`Status page`, url:`https://dogegram.instatus.com`},
+  {text:`Status page`, url:`https://status.dogegram.xyz`},
 ];
 const legalLinks = [
   {text:`Terms of Service`, url:`https://dogegram.notion.site/Terms-Of-Service-Dogegram-7edabbd77c9f41208a7cad37d44a590e`},

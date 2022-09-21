@@ -11,7 +11,10 @@ const Header = () => (
   <header className={tw(headerStyle)}>
     <div className={tw(`max-w-4xl mx-auto py-16 px-14 sm:px-6 lg:px-8`)}>
       <h2 className={tw(`font-sans font-bold text-4xl md:text-5xl lg:text-8xl text-center leading-snug text-gray-800`)}>
-        The user-funded social media
+      Share your photos,
+      <h2 className={tw(`font-sans font-bold text-4xl md:text-5xl lg:text-8xl text-center leading-snug text-gray-800`)}>
+      not your data
+      </h2>
       <h2 className={tw(`font-sans font-bold text-transparent text-4xl md:text-5xl lg:text-8xl text-center lg:leading-tight bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 via-yellow-500 animate-gradient-x`)}>
          Dogegram!
       </h2>

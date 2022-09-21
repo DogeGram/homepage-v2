@@ -4,7 +4,7 @@ import FeatureSvg from '@/constants/svg/features.svg';
 const listItems = [
   {
     title: `Made by a group of Teens!`,
-    description: `Its not Google or Facebook (data hungry), we are a team of teen devs 
+    description: `Its not Google or Facebook/Meta (alwayshungryfordata), we are a team of teen devs 
     making great stuff.`,
     iconjsx: <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -21,7 +21,7 @@ const listItems = [
   {
     title: `Secure`,
     description: `We have made sure your data stays safe and secure, and we collect minimal data so even if the
-    worst come to happen, which has a very low chance, you would leak no more than your birthday and email. The database cannot be accessed from outside our network.`,
+    worst come to happen, which has a very low probabilty, the damage would be contained. Our databases cannot be accessed from outside our network.`,
     iconjsx: <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
   </svg>
@@ -32,9 +32,11 @@ const ListSection = () => (
   <section className={tw(`lg:py-28 pt-28 overflow-hidden`)}>
     <div className={tw(`max-w-7xl mx-auto p-4 sm:p-6 lg:p-8 bg-white`)}>
       <div className={tw(`mb-16 text-center`)}>
-        <h2 className={tw(`text-base text-indigo-600 font-semibold tracking-wide uppercase`)}>Not created or funded by a </h2>
+        <h2 className={tw(`text-base text-indigo-600 font-semibold tracking-wide uppercase`)}>
+        Your life, your moments, your story. Share with who you want, when you want.
+          </h2>
         <p className={tw(`mt-2 pb-4 text-5xl lg:text-7xl font-bold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-blue-700 to-red-600 via-yellow-500 animate-gradient-x`)}>
-          Tech Giant
+          You're in control
         </p>
       </div>
       <div className={tw(`flex flex-wrap -mx-8 items-center`)}>

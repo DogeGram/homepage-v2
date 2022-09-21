@@ -48,7 +48,7 @@ const FeatureSection = () => (
               <div className={tw(`ml-4 text-xl`)}>Creator's Badge!</div>
             </div>
             <p className={tw(`leading-loose text-gray-500`)}>
-              Creators with more than just 100 followers (ya only 100 subs required) get a special badge linking to
+              Creators with more than just 100 followers (yes, just 100 subs required) get a special badge linking to
               their youtube channel page!
             </p>
           </div>
@@ -59,7 +59,7 @@ const FeatureSection = () => (
             </div>
             <p className={tw(`leading-loose text-gray-500`)}>
               A sleek, fast and noice platform made by us for the world to use and make more productive things, 
-              inspired by Twitter and Instagram. 
+              inspired by the current market needs. 
             </p>
           </div>
           <div className={tw(`w-full md:w-1/2 lg:w-1/3 p-8`)}>
