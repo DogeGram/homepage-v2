@@ -13,6 +13,7 @@ export default function Home() {
         title="Dogegram"
         description="A new, sleek and noice social media platform!"
       />
+      <script defer data-domain="dogegram.xyz" src="https://findings.dogegram.xyz/js/findings.js"></script>
       <Header />
       <main>
         <ListSection />
